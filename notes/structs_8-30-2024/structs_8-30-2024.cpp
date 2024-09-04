@@ -70,4 +70,20 @@ int main(){
     };
 
     cout << student_array[0].home_address.addressline1;
+
+    student m123 = {
+        "Lanny",
+        "CS",
+        4.0
+    };
+
+    student *m456 = nullptr;
+    
+    // m456 = &m123;
+
+    // using arrow operator to access a pointer's host structure's data rather than a dot operator. (-> vs .)
+    // std::cout << m456->stu_name << std::endl;
+
+    student m789;
+    std::string name = "Oakman";
 }
